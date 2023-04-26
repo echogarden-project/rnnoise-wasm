@@ -17,7 +17,8 @@
   },
   "author": "Echogarden project",
   "repository": {
-    "url": "https://github.com/echogarden-project/echogarden"
+    "type": "git",
+    "url": "https://github.com/echogarden-project/rnnoise-wasm"
   },
   "license": "BSD-3-Clause"
 }
