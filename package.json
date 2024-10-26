@@ -1,24 +1,24 @@
 {
-  "name": "@echogarden/rnnoise-wasm",
-  "version": "0.1.1",
-  "description": "RNNoise noise suppression library, compiled to WASM. Intended for use with Echogarden.",
-  "publishConfig": {
-    "access": "public"
-  },
-  "main": "rnnoise.cjs",
-  "files": [
-    "rnnoise.cjs",
-    "rnnoise.wasm",
-    "COPYING",
-    "README.md"
-  ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Echogarden project",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/echogarden-project/rnnoise-wasm"
-  },
-  "license": "BSD-3-Clause"
+	"name": "@echogarden/rnnoise-wasm",
+	"version": "0.2.0",
+	"description": "RNNoise noise suppression library, compiled to WASM. Intended for use with Echogarden.",
+	"publishConfig": {
+		"access": "public"
+	},
+	"main": "rnnoise.js",
+	"type": "module",
+	"files": [
+		"rnnoise.js",
+		"rnnoise.wasm",
+		"COPYING",
+		"README.md"
+	],
+	"scripts": {
+	},
+	"author": "Echogarden project",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/echogarden-project/rnnoise-wasm"
+	},
+	"license": "BSD-3-Clause"
 }
